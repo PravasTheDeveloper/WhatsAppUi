@@ -24,6 +24,8 @@
   background-color: #111b21ee;
   background-blend-mode: darken;
   background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
 }
 .ChatingSreenWrapper::-webkit-scrollbar {
   width: 10px;
