@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.body{
+  background-color: #111b21;
+}
+.mc{
+  background-color: #111b21;
+}
+
+.lc{
+  background-color: #202c33;
+}
+
+.tlc{
+  color: #202c33;
+}
+.ccl{
+  background-color: #222e35;
+}
+
+.ChatingSreen{
+  background-image: url("/background_image.png");
+  background-color: #111b21ee;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+.ChatingSreenWrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49494933;
+}
+
+.LeftSideScroll::-webkit-scrollbar {
+  width: 10px;
+}
